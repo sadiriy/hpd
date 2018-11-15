@@ -1,0 +1,122 @@
+#img1, #img2{
+      margin: 50px 50px 0 50px;
+        width: 250px;
+        height: auto;
+        float: left;
+
+    }
+
+    #img3{
+      width: 150px; 
+      height: auto; 
+      margin: 100px 50px 0 50px; 
+      float: left;
+    }
+    .choices{
+      color: white;
+      font-size: 15pt;
+      font-family: Segoe Print;
+      padding: 0 0 0 250px;
+    }
+
+    #result{
+      padding: 0 0 0 150px;
+      font-size: 18pt;
+    }
+
+    #button{
+        padding: 5px 40px 5px 40px; 
+        margin: 20px 50% 50px 50%;
+        text-decoration: none;
+        color: white; font-size: 15pt;
+        font-family: Segoe Print;
+        background-color: green;
+        cursor: pointer;
+        border-color: white;
+        border-radius: 10px;
+       
+      }
+
+      @media screen and (max-width: 1220px){
+      #img1, #img2{
+      margin: 50px 50px 0 50px;
+        width: 150px;
+        height: auto;
+
+    }
+
+      #img3{
+        width: 120px; 
+        height: auto; 
+        margin: 50px 50px 0 50px; 
+    }
+
+      .choices{
+        color: white;
+        font-size: 15pt;
+        font-family: Segoe Print;
+        padding: 50px 0 0 120px;
+    }
+      #button{        
+        margin: 20px 50% 50px 50%;
+ }
+
+   @media screen and (max-width: 860px){
+
+    #img1, #img2{
+      margin: 50px 20px 0 20px;
+        width: 100px;
+        height: auto;
+
+    }
+
+      #img3{
+        width: 80px; 
+        height: auto; 
+        margin: 50px 50px 0 50px; 
+    }
+
+    #result{
+      padding: 0 0 0 100px;
+      font-size: 18pt;
+    }
+
+      .choices{
+        color: white;
+        font-size: 15pt;
+        font-family: Segoe Print;
+        padding: 50px 0 0 200px;
+    }
+      #button{
+        margin: 20px 50% 50px 50%;
+    }
+
+
+   }
+
+   @media screen and (max-width: 700px){
+
+    .choices{
+            color: white;
+            font-size: 15pt;
+            font-family: Segoe Print;
+            padding: 10px 0 0 10px;
+        }
+    #button{
+        margin: 20px 50% 50px 50%;
+    }
+
+
+   }
+
+     @media screen and (max-width: 490px){
+      #img1, #img2, #img3{
+        
+        margin: 15px 40% 15px 40%;
+      }
+
+      #result{
+      padding: 0 5px 15px 50px;
+    }
+
+     }

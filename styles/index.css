@@ -1,0 +1,19 @@
+.image img{
+	width: 250px;
+	height: auto;
+}
+
+.content{
+	min-height: 500px;
+	font-size: 36pt;
+	font-family: Segoe Print;
+	color: white;
+	text-align: center; 
+	padding: 100px 100px 0 150px;
+}
+
+@media screen and (max-width: 605px){
+	.content{
+	padding: 60px 20px 0 20px;
+}
+}

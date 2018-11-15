@@ -1,0 +1,77 @@
+a{
+  text-decoration: none;
+}
+  #result{
+    margin-top: 20px;
+  }
+    #pizzaSize{
+        
+        width : 300px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 14px;
+        font-size: 14pt;
+        text-align: center;
+
+    }
+    .choices{
+        padding: 50px 0 0 250px;
+        color: white;
+        font-size: 18pt;
+        font-family: Segoe Print;
+
+    }
+    #drinks{
+        margin-top: 20px;
+        width : 300px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 14px;
+        font-size: 14pt;
+        text-align: center;
+        display: none;
+
+    }
+    #number{
+        margin-top: 20px;
+        width : 300px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 14px;
+        font-size: 14pt;
+        text-align: center;
+        display: none;
+}
+    
+      #button{
+        padding: 5px;
+        margin: 20px 0 0 300px;
+        text-decoration: none;
+        color: white; font-size: 15pt;
+        font-family: Segoe Print;
+        background-color: green;
+        cursor: pointer;
+        border-color: white;
+        border-radius: 10px;
+        display: none;
+      }
+
+      h3{
+        margin-right: 150px;
+      }
+
+      @media screen and (max-width: 700px){
+        
+        .choices{
+            padding: 20px 0 150px 50px;
+      }
+
+      h3{
+        margin-right: 20px;
+      }
+
+       #button{
+       margin: 20px 0 0 250px;
+       }
+
+   }

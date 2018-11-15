@@ -1,0 +1,1 @@
+document.getElementById("result").innerHTML = sessionStorage.getItem('choice');
